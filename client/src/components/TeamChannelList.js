@@ -12,6 +12,7 @@ const TeamChannelList = ({ children, error = false, loading, type }) => {
         ) : null
     }
 
+    debugger
     if (loading) {
         return (
             <div className='team-channel-list'>
