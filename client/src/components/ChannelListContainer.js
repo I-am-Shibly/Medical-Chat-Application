@@ -32,6 +32,7 @@ const CompanyHeader = () => (
 
 function ChannelListContainer() {
   const logout = () => {
+    cookies.remove('token')
     cookies.remove('userId')
     cookies.remove('username')
     cookies.remove('fullName')
